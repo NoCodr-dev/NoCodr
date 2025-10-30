@@ -1,5 +1,8 @@
 {
-	"name": "kilo-code",
+	"name": "nocodr",
+	"displayName": "NoCodr - AI Coding Assistant",
+	"description": "Professional AI coding assistant with DevOps tools",
+	"publisher": "NoCodr-dev",
 	"packageManager": "pnpm@10.8.1",
 	"engines": {
 		"node": "20.19.2"

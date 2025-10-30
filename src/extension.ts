@@ -41,6 +41,7 @@ import {
 	registerTerminalActions,
 	CodeActionProvider,
 } from "./activate"
+import { registerNoCodrCommands } from "./core/nocodr/registerNoCodrCommands"
 import { initializeI18n } from "./i18n"
 import { registerGhostProvider } from "./services/ghost" // kilocode_change
 import { registerMainThreadForwardingLogger } from "./utils/fowardingLogger" // kilocode_change
@@ -66,7 +67,7 @@ let userInfoHandler: ((data: { userInfo: CloudUserInfo }) => Promise<void>) | un
 // Your extension is activated the very first time the command is executed.
 export async function activate(context: vscode.ExtensionContext) {
 	extensionContext = context
-	outputChannel = vscode.window.createOutputChannel("Kilo-Code")
+	outputChannel = vscode.window.createOutputChannel("NoCodr")
 	context.subscriptions.push(outputChannel)
 	outputChannel.appendLine(`${Package.name} extension activated - ${JSON.stringify(Package)}`)
 
@@ -243,28 +244,41 @@ export async function activate(context: vscode.ExtensionContext) {
 		}),
 	)
 
-	// kilocode_change start
+	// nocodr_change start
 	if (!context.globalState.get("firstInstallCompleted")) {
-		outputChannel.appendLine("First installation detected, opening Kilo Code sidebar!")
+		outputChannel.appendLine("First installation detected, opening NoCodr sidebar!")
 		try {
-			await vscode.commands.executeCommand("kilo-code.SidebarProvider.focus")
+			// Prefer NoCodr sidebar; fall back to Kilo for backward-compat
+			try {
+				await vscode.commands.executeCommand("nocodr.SidebarProvider.focus")
+			} catch {
+				await vscode.commands.executeCommand("kilo-code.SidebarProvider.focus")
+			}
 
-			outputChannel.appendLine("Opening Kilo Code walkthrough")
+			outputChannel.appendLine("Opening NoCodr walkthrough (fallback to Kilo if unavailable)")
 
 			// this can crash, see:
 			// https://discord.com/channels/1349288496988160052/1395865796026040470
-			await vscode.commands.executeCommand(
-				"workbench.action.openWalkthrough",
-				"kilocode.kilo-code#kiloCodeWalkthrough",
-				false,
-			)
+			try {
+				await vscode.commands.executeCommand(
+					"workbench.action.openWalkthrough",
+					"nocodr.nocodr#noCodrWalkthrough",
+					false,
+				)
+			} catch {
+				await vscode.commands.executeCommand(
+					"workbench.action.openWalkthrough",
+					"kilocode.kilo-code#kiloCodeWalkthrough",
+					false,
+				)
+			}
 		} catch (error) {
 			outputChannel.appendLine(`Error during first-time setup: ${error.message}`)
 		} finally {
 			await context.globalState.update("firstInstallCompleted", true)
 		}
 	}
-	// kilocode_change end
+	// nocodr_change end
 
 	// Auto-import configuration if specified in settings
 	try {
@@ -280,6 +294,7 @@ export async function activate(context: vscode.ExtensionContext) {
 	}
 
 	registerCommands({ context, outputChannel, provider })
+	registerNoCodrCommands({ context, outputChannel })
 
 	/**
 	 * We use the text document content provider API to show the left side for diff
@@ -316,17 +331,17 @@ export async function activate(context: vscode.ExtensionContext) {
 		}),
 	)
 
-	// kilocode_change start - Kilo Code specific registrations
+	// nocodr_change start - NoCodr specific registrations
 	const { kiloCodeWrapped } = getKiloCodeWrapperProperties()
 	if (!kiloCodeWrapped) {
-		// Only use autocomplete in VS Code
+		// Only use autocomplete in VS Code (NoCodr)
 		registerGhostProvider(context, provider)
 	} else {
 		// Only foward logs in Jetbrains
 		registerMainThreadForwardingLogger(context)
 	}
-	registerCommitMessageProvider(context, outputChannel) // kilocode_change
-	// kilocode_change end - Kilo Code specific registrations
+	registerCommitMessageProvider(context, outputChannel) // nocodr_change
+	// nocodr_change end - NoCodr specific registrations
 
 	registerCodeActions(context)
 	registerTerminalActions(context)
@@ -335,8 +350,19 @@ export async function activate(context: vscode.ExtensionContext) {
 	vscode.commands.executeCommand(`${Package.name}.activationCompleted`)
 
 	// Implements the `RooCodeAPI` interface.
-	const socketPath = process.env.KILO_IPC_SOCKET_PATH ?? process.env.ROO_CODE_IPC_SOCKET_PATH // kilocode_change
+	// IPC socket env var: add NoCodr first, keep legacy fallbacks for compat
+	const socketPath =
+		process.env.NOCODR_IPC_SOCKET_PATH ??
+		process.env.KILO_IPC_SOCKET_PATH ??
+		process.env.ROO_CODE_IPC_SOCKET_PATH // compat chain
 	const enableLogging = typeof socketPath === "string"
+	
+	// Telemetry opt-out (privacy control)
+	const telemetryOptOut = process.env.NOCODR_TELEMETRY_OPT_OUT === "1"
+	if (TelemetryService.hasInstance()) {
+		// If opted out, set telemetry state to false (not opted in)
+		TelemetryService.instance.updateTelemetryState(!telemetryOptOut)
+	}
 
 	// Watch the core files and automatically reload the extension host.
 	if (process.env.NODE_ENV === "development") {

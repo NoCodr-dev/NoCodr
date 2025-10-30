@@ -1,3 +1,7 @@
+# NoCodr (Layer 4) - Superset of Kilo Code
+
+NoCodr (Layer 4) is a full superset of Kilo Code (2025). All existing projects, modes, and plugins run unchanged.
+
 # kilo-code
 
 ## [v4.100.0]
