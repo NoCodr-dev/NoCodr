@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Generador de missatges de commit de Kilo Code activat",
+		"activated": "Generador de missatges de commit de NoCodr activat",
 		"gitNotFound": "⚠️ No s'ha trobat el repositori Git o git no està disponible",
 		"gitInitError": "⚠️ Error d'inicialització de Git: {{error}}",
 		"generating": "Kilo: Generant missatge de commit...",
@@ -64,12 +64,12 @@
 	},
 	"ghost": {
 		"statusBar": {
-			"enabled": "$(sparkle) Kilo Code Autocomplete",
-			"disabled": "$(circle-slash) Kilo Code Autocomplete",
-			"warning": "$(warning) Kilo Code Autocomplete",
+			"enabled": "$(sparkle) NoCodr Autocomplete",
+			"disabled": "$(circle-slash) NoCodr Autocomplete",
+			"warning": "$(warning) NoCodr Autocomplete",
 			"tooltip": {
-				"basic": "Kilo Code Autocomplete",
-				"disabled": "Kilo Code Autocomplete (desactivat)",
+				"basic": "NoCodr Autocomplete",
+				"disabled": "NoCodr Autocomplete (desactivat)",
 				"tokenError": "S'ha d'establir un token vàlid per utilitzar Autocomplete",
 				"lastCompletion": "Últim suggeriment:",
 				"sessionTotal": "Cost total de la sessió:",
@@ -80,37 +80,37 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "Kilo Code Autocomplete {{status}}",
+		"toggleMessage": "NoCodr Autocomplete {{status}}",
 		"progress": {
-			"title": "Kilo Code",
+			"title": "NoCodr",
 			"analyzing": "Analitzant el teu codi...",
 			"generating": "Generant edicions suggerides...",
 			"processing": "Processant edicions suggerides...",
 			"showing": "Mostrant edicions suggerides..."
 		},
 		"input": {
-			"title": "Kilo Code: Tasca Ràpida",
+			"title": "NoCodr: Tasca Ràpida",
 			"placeholder": "p. ex., 'refactoritza aquesta funció per ser més eficient'"
 		},
 		"commands": {
-			"generateSuggestions": "Kilo Code: Generar Edicions Suggerides",
+			"generateSuggestions": "NoCodr: Generar Edicions Suggerides",
 			"displaySuggestions": "Mostrar Edicions Suggerides",
 			"cancelSuggestions": "Cancel·lar Edicions Suggerides",
 			"applyCurrentSuggestion": "Aplicar Edició Suggerida Actual",
 			"applyAllSuggestions": "Aplicar Totes les Edicions Suggerides",
 			"promptCodeSuggestion": "Tasca Ràpida",
-			"category": "Kilo Code"
+			"category": "NoCodr"
 		},
 		"codeAction": {
-			"title": "Kilo Code: Edicions Suggerides"
+			"title": "NoCodr: Edicions Suggerides"
 		},
 		"chatParticipant": {
-			"fullName": "Kilo Code Agent",
+			"fullName": "NoCodr Agent",
 			"name": "Agent",
 			"description": "Puc ajudar-te amb tasques ràpides i edicions suggerides."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "El Kilo Code Autocomplete està sent bloquejat per un conflicte amb GitHub Copilot. Per solucionar això, has de desactivar els suggeriments en línia de Copilot.",
+			"message": "El NoCodr Autocomplete està sent bloquejat per un conflicte amb GitHub Copilot. Per solucionar això, has de desactivar els suggeriments en línia de Copilot.",
 			"disableCopilot": "Desactivar Copilot",
 			"disableInlineAssist": "Desactivar Autocomplete"
 		}

@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Generator wiadomości commit Kilo Code aktywowany",
+		"activated": "Generator wiadomości commit NoCodr aktywowany",
 		"gitNotFound": "⚠️ Nie znaleziono repozytorium Git lub git jest niedostępny",
 		"gitInitError": "⚠️ Błąd inicjalizacji Git: {{error}}",
 		"generating": "Kilo: Generowanie wiadomości commit...",
@@ -70,12 +70,12 @@
 	},
 	"ghost": {
 		"statusBar": {
-			"enabled": "$(sparkle) Kilo Code Autocomplete",
-			"disabled": "$(circle-slash) Kilo Code Autocomplete",
-			"warning": "$(warning) Kilo Code Autocomplete",
+			"enabled": "$(sparkle) NoCodr Autocomplete",
+			"disabled": "$(circle-slash) NoCodr Autocomplete",
+			"warning": "$(warning) NoCodr Autocomplete",
 			"tooltip": {
-				"basic": "Kilo Code Autocomplete",
-				"disabled": "Kilo Code Autocomplete (wyłączone)",
+				"basic": "NoCodr Autocomplete",
+				"disabled": "NoCodr Autocomplete (wyłączone)",
 				"tokenError": "Aby używać Autocomplete, musi być ustawiony ważny token",
 				"lastCompletion": "Ostatnia sugestia:",
 				"sessionTotal": "Całkowity koszt sesji:",
@@ -86,37 +86,37 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "Kilo Code Autocomplete {{status}}",
+		"toggleMessage": "NoCodr Autocomplete {{status}}",
 		"progress": {
-			"title": "Kilo Code",
+			"title": "NoCodr",
 			"analyzing": "Analizuję twój kod...",
 			"generating": "Generuję sugerowane edycje...",
 			"processing": "Przetwarzam sugerowane edycje...",
 			"showing": "Wyświetlam sugerowane edycje..."
 		},
 		"input": {
-			"title": "Kilo Code: Szybkie Zadanie",
+			"title": "NoCodr: Szybkie Zadanie",
 			"placeholder": "np. 'zrefaktoruj tę funkcję, aby była bardziej wydajna'"
 		},
 		"commands": {
-			"generateSuggestions": "Kilo Code: Generuj Sugerowane Edycje",
+			"generateSuggestions": "NoCodr: Generuj Sugerowane Edycje",
 			"displaySuggestions": "Wyświetl Sugerowane Edycje",
 			"cancelSuggestions": "Anuluj Sugerowane Edycje",
 			"applyCurrentSuggestion": "Zastosuj Bieżącą Sugerowaną Edycję",
 			"applyAllSuggestions": "Zastosuj Wszystkie Sugerowane Edycje",
 			"promptCodeSuggestion": "Szybkie Zadanie",
-			"category": "Kilo Code"
+			"category": "NoCodr"
 		},
 		"codeAction": {
-			"title": "Kilo Code: Sugerowane Edycje"
+			"title": "NoCodr: Sugerowane Edycje"
 		},
 		"chatParticipant": {
-			"fullName": "Kilo Code Agent",
+			"fullName": "NoCodr Agent",
 			"name": "Agent",
 			"description": "Mogę pomóc ci w szybkich zadaniach i sugerowanych edycjach."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "Kilo Code Autocomplete jest blokowane przez konflikt z GitHub Copilot. Aby to naprawić, musisz wyłączyć sugestie inline Copilot.",
+			"message": "NoCodr Autocomplete jest blokowane przez konflikt z GitHub Copilot. Aby to naprawić, musisz wyłączyć sugestie inline Copilot.",
 			"disableCopilot": "Wyłącz Copilot",
 			"disableInlineAssist": "Wyłącz Autocomplete"
 		}

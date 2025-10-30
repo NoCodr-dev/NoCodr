@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "تم تفعيل منشئ رسائل التزام Kilo Code",
+		"activated": "تم تفعيل منشئ رسائل التزام NoCodr",
 		"gitNotFound": "⚠️ مستودع Git غير موجود أو Git غير متاح",
 		"gitInitError": "⚠️ خطأ في تهيئة Git: {{error}}",
 		"generating": "Kilo: جارٍ إنشاء رسالة الالتزام...",
@@ -62,18 +62,18 @@
 		"analyzingChanges": "Kilo: جاري تحليل التعديلات الجاهزة...",
 		"noStagedChangesRepo": "Kilo: ما فيه تعديلات مضافة في مستودع git",
 		"noStagedChanges": "Kilo: ما فيه تعديلات مضافة لتحليلها",
-		"tokenRequired": "يتطلب توليد الرسالة رمز Kilo Code",
+		"tokenRequired": "يتطلب توليد الرسالة رمز NoCodr",
 		"activationFailed": "Kilo: فشل تفعيل مولّد الرسائل: {{error}}",
 		"providerRegistered": "Kilo: تم تسجيل موفر رسائل الاعتماد"
 	},
 	"ghost": {
 		"statusBar": {
-			"enabled": "$(sparkle) Kilo Code Autocomplete",
-			"disabled": "$(circle-slash) Kilo Code Autocomplete",
-			"warning": "$(warning) Kilo Code Autocomplete",
+			"enabled": "$(sparkle) NoCodr Autocomplete",
+			"disabled": "$(circle-slash) NoCodr Autocomplete",
+			"warning": "$(warning) NoCodr Autocomplete",
 			"tooltip": {
-				"basic": "Kilo Code Autocomplete",
-				"disabled": "Kilo Code Autocomplete (معطل)",
+				"basic": "NoCodr Autocomplete",
+				"disabled": "NoCodr Autocomplete (معطل)",
 				"tokenError": "يجب تعيين رمز صالح لاستخدام الإكمال التلقائي",
 				"lastCompletion": "آخر اقتراح:",
 				"sessionTotal": "إجمالي تكلفة الجلسة:",
@@ -84,37 +84,37 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "Kilo Code Autocomplete {{status}}",
+		"toggleMessage": "NoCodr Autocomplete {{status}}",
 		"progress": {
-			"title": "Kilo Code",
+			"title": "NoCodr",
 			"analyzing": "تحليل الكود الخاص بك...",
 			"generating": "إنشاء التعديلات المقترحة...",
 			"processing": "معالجة التعديلات المقترحة...",
 			"showing": "عرض التعديلات المقترحة..."
 		},
 		"input": {
-			"title": "Kilo Code: مهمة سريعة",
+			"title": "NoCodr: مهمة سريعة",
 			"placeholder": "مثال، 'أعد هيكلة هذه الدالة لتكون أكثر كفاءة'"
 		},
 		"commands": {
-			"generateSuggestions": "Kilo Code: إنشاء التعديلات المقترحة",
+			"generateSuggestions": "NoCodr: إنشاء التعديلات المقترحة",
 			"displaySuggestions": "عرض التعديلات المقترحة",
 			"cancelSuggestions": "إلغاء التعديلات المقترحة",
 			"applyCurrentSuggestion": "تطبيق التعديل المقترح الحالي",
 			"applyAllSuggestions": "تطبيق جميع التعديلات المقترحة",
 			"promptCodeSuggestion": "مهمة سريعة",
-			"category": "Kilo Code"
+			"category": "NoCodr"
 		},
 		"codeAction": {
-			"title": "Kilo Code: التعديلات المقترحة"
+			"title": "NoCodr: التعديلات المقترحة"
 		},
 		"chatParticipant": {
-			"fullName": "Kilo Code Agent",
+			"fullName": "NoCodr Agent",
 			"name": "Agent",
 			"description": "يمكنني مساعدتك في المهام السريعة والتعديلات المقترحة."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "يتم حظر Kilo Code Autocomplete بسبب تعارض مع GitHub Copilot. لإصلاح هذا، يجب عليك تعطيل اقتراحات Copilot المضمنة.",
+			"message": "يتم حظر NoCodr Autocomplete بسبب تعارض مع GitHub Copilot. لإصلاح هذا، يجب عليك تعطيل اقتراحات Copilot المضمنة.",
 			"disableCopilot": "تعطيل Copilot",
 			"disableInlineAssist": "تعطيل الإكمال التلقائي"
 		}

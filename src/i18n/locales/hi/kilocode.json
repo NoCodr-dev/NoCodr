@@ -51,7 +51,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Kilo Code कमिट संदेश जनरेटर सक्रिय",
+		"activated": "NoCodr कमिट संदेश जनरेटर सक्रिय",
 		"gitNotFound": "⚠️ Git रिपॉजिटरी नहीं मिली या Git उपलब्ध नहीं है",
 		"gitInitError": "⚠️ Git इनिशियलाइज़ेशन त्रुटि: {{error}}",
 		"generating": "Kilo: कमिट संदेश उत्पन्न कर रहा है...",
@@ -70,12 +70,12 @@
 	},
 	"ghost": {
 		"statusBar": {
-			"enabled": "$(sparkle) Kilo Code Autocomplete",
-			"disabled": "$(circle-slash) Kilo Code Autocomplete",
-			"warning": "$(warning) Kilo Code Autocomplete",
+			"enabled": "$(sparkle) NoCodr Autocomplete",
+			"disabled": "$(circle-slash) NoCodr Autocomplete",
+			"warning": "$(warning) NoCodr Autocomplete",
 			"tooltip": {
-				"basic": "Kilo Code Autocomplete",
-				"disabled": "Kilo Code Autocomplete (अक्षम)",
+				"basic": "NoCodr Autocomplete",
+				"disabled": "NoCodr Autocomplete (अक्षम)",
 				"tokenError": "Autocomplete का उपयोग करने के लिए एक वैध टोकन सेट करना होगा",
 				"lastCompletion": "अंतिम सुझाव:",
 				"sessionTotal": "सत्र की कुल लागत:",
@@ -86,37 +86,37 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "Kilo Code Autocomplete {{status}}",
+		"toggleMessage": "NoCodr Autocomplete {{status}}",
 		"progress": {
-			"title": "Kilo Code",
+			"title": "NoCodr",
 			"analyzing": "आपके कोड का विश्लेषण कर रहे हैं...",
 			"generating": "सुझाए गए संपादन बना रहे हैं...",
 			"processing": "सुझाए गए संपादन प्रोसेस कर रहे हैं...",
 			"showing": "सुझाए गए संपादन दिखा रहे हैं..."
 		},
 		"input": {
-			"title": "Kilo Code: त्वरित कार्य",
+			"title": "NoCodr: त्वरित कार्य",
 			"placeholder": "जैसे, 'इस फ़ंक्शन को अधिक कुशल बनाने के लिए रिफैक्टर करें'"
 		},
 		"commands": {
-			"generateSuggestions": "Kilo Code: सुझाए गए संपादन जेनरेट करें",
+			"generateSuggestions": "NoCodr: सुझाए गए संपादन जेनरेट करें",
 			"displaySuggestions": "सुझाए गए संपादन दिखाएं",
 			"cancelSuggestions": "सुझाए गए संपादन रद्द करें",
 			"applyCurrentSuggestion": "वर्तमान सुझाए गए संपादन लागू करें",
 			"applyAllSuggestions": "सभी सुझाए गए संपादन लागू करें",
 			"promptCodeSuggestion": "त्वरित कार्य",
-			"category": "Kilo Code"
+			"category": "NoCodr"
 		},
 		"codeAction": {
-			"title": "Kilo Code: सुझाए गए संपादन"
+			"title": "NoCodr: सुझाए गए संपादन"
 		},
 		"chatParticipant": {
-			"fullName": "Kilo Code Agent",
+			"fullName": "NoCodr Agent",
 			"name": "Agent",
 			"description": "मैं त्वरित कार्यों और सुझाए गए संपादनों में आपकी सहायता कर सकता हूं।"
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "Kilo Code Autocomplete को GitHub Copilot के साथ संघर्ष के कारण ब्लॉक किया जा रहा है। इसे ठीक करने के लिए, आपको Copilot के इनलाइन सुझावों को अक्षम करना होगा।",
+			"message": "NoCodr Autocomplete को GitHub Copilot के साथ संघर्ष के कारण ब्लॉक किया जा रहा है। इसे ठीक करने के लिए, आपको Copilot के इनलाइन सुझावों को अक्षम करना होगा।",
 			"disableCopilot": "Copilot अक्षम करें",
 			"disableInlineAssist": "Autocomplete अक्षम करें"
 		}

@@ -46,7 +46,7 @@
 		}
 	},
 	"commitMessage": {
-		"activated": "Генератор сообщений коммитов Kilo Code активирован",
+		"activated": "Генератор сообщений коммитов NoCodr активирован",
 		"gitNotFound": "⚠️ Репозиторий Git не найден или git недоступен",
 		"gitInitError": "⚠️ Ошибка инициализации Git: {{error}}",
 		"generating": "Kilo: Генерация сообщения коммита...",
@@ -59,12 +59,12 @@
 	},
 	"ghost": {
 		"statusBar": {
-			"enabled": "$(sparkle) Kilo Code Autocomplete",
-			"disabled": "$(circle-slash) Kilo Code Autocomplete",
-			"warning": "$(warning) Kilo Code Autocomplete",
+			"enabled": "$(sparkle) NoCodr Autocomplete",
+			"disabled": "$(circle-slash) NoCodr Autocomplete",
+			"warning": "$(warning) NoCodr Autocomplete",
 			"tooltip": {
-				"basic": "Kilo Code Autocomplete",
-				"disabled": "Kilo Code Autocomplete (отключено)",
+				"basic": "NoCodr Autocomplete",
+				"disabled": "NoCodr Autocomplete (отключено)",
 				"tokenError": "Для использования Autocomplete необходимо установить действительный токен",
 				"lastCompletion": "Последнее предложение:",
 				"sessionTotal": "Общая стоимость сессии:",
@@ -75,37 +75,37 @@
 				"lessThanCent": "<$0.01"
 			}
 		},
-		"toggleMessage": "Kilo Code Autocomplete {{status}}",
+		"toggleMessage": "NoCodr Autocomplete {{status}}",
 		"progress": {
-			"title": "Kilo Code",
+			"title": "NoCodr",
 			"analyzing": "Анализирую твой код...",
 			"generating": "Генерирую предлагаемые правки...",
 			"processing": "Обрабатываю предлагаемые правки...",
 			"showing": "Показываю предлагаемые правки..."
 		},
 		"input": {
-			"title": "Kilo Code: Быстрая Задача",
+			"title": "NoCodr: Быстрая Задача",
 			"placeholder": "напр., 'рефактори эту функцию для большей эффективности'"
 		},
 		"commands": {
-			"generateSuggestions": "Kilo Code: Генерировать Предлагаемые Правки",
+			"generateSuggestions": "NoCodr: Генерировать Предлагаемые Правки",
 			"displaySuggestions": "Показать Предлагаемые Правки",
 			"cancelSuggestions": "Отменить Предлагаемые Правки",
 			"applyCurrentSuggestion": "Применить Текущую Предлагаемую Правку",
 			"applyAllSuggestions": "Применить Все Предлагаемые Правки",
 			"promptCodeSuggestion": "Быстрая Задача",
-			"category": "Kilo Code"
+			"category": "NoCodr"
 		},
 		"codeAction": {
-			"title": "Kilo Code: Предлагаемые Правки"
+			"title": "NoCodr: Предлагаемые Правки"
 		},
 		"chatParticipant": {
-			"fullName": "Kilo Code Agent",
+			"fullName": "NoCodr Agent",
 			"name": "Agent",
 			"description": "Я могу помочь тебе с быстрыми задачами и предлагаемыми правками."
 		},
 		"incompatibilityExtensionPopup": {
-			"message": "Kilo Code Autocomplete блокируется конфликтом с GitHub Copilot. Чтобы исправить это, ты должен отключить встроенные предложения Copilot.",
+			"message": "NoCodr Autocomplete блокируется конфликтом с GitHub Copilot. Чтобы исправить это, ты должен отключить встроенные предложения Copilot.",
 			"disableCopilot": "Отключить Copilot",
 			"disableInlineAssist": "Отключить Autocomplete"
 		}
