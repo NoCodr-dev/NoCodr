@@ -1,3 +1,15 @@
+# Load nvm and set Node.js path
+export NVM_DIR="$HOME/.nvm"
+if [ -s "$NVM_DIR/nvm.sh" ]; then
+  . "$NVM_DIR/nvm.sh"
+  nvm use 20.19.2 2>/dev/null || true
+fi
+
+# Add Node.js to PATH if nvm loaded successfully
+if [ -d "$HOME/.nvm/versions/node/v20.19.2/bin" ]; then
+  export PATH="$HOME/.nvm/versions/node/v20.19.2/bin:$PATH"
+fi
+
 branch="$(git rev-parse --abbrev-ref HEAD)"
 
 if [ "$branch" = "main" ]; then
