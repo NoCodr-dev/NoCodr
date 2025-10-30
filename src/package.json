@@ -111,8 +111,8 @@
 				{
 					"id": "kilo-code-ActivityBar",
 					"title": "%views.activitybar.title%",
-					"icon": "assets/icons/kilo.png",
-					"darkIcon": "assets/icons/kilo-dark.png"
+					"icon": "assets/icons/nocodr.png",
+					"darkIcon": "assets/icons/nocodr-dark.png"
 				}
 			]
 		},
@@ -122,8 +122,8 @@
 					"type": "webview",
 					"id": "nocodr.SidebarProvider",
 					"name": "%views.sidebar.name%",
-					"icon": "assets/icons/kilo.png",
-					"darkIcon": "assets/icons/kilo-dark.png"
+					"icon": "assets/icons/nocodr.png",
+					"darkIcon": "assets/icons/nocodr-dark.png"
 				}
 			]
 		},
