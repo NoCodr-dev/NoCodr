@@ -8,7 +8,7 @@
 
 # 🚀 NoCodr
 
-> NoCodr (Layer 4) is a full superset of Kilo Code (2025). All existing projects, modes, and plugins run unchanged.
+> NoCodr (Layer 4) is a full superset of NoCodr (2025). All existing projects, modes, and plugins run unchanged.
 > Open-source VS Code AI agent. We frequently merge features from open-source projects while building our own vision.
 
 - ✨ Generate code from natural language

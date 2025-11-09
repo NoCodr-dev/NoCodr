@@ -4,4 +4,4 @@
 
 Running into errors? Switch to Debug mode and describe the problem. NoCodr will analyze the code, find the issue, and apply a fix.
 
-You can paste error messages or point to a file. Kilo Code will take it from there.
+You can paste error messages or point to a file. NoCodr will take it from there.

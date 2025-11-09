@@ -4,7 +4,7 @@ Click the magic wand icon to make your prompt clearer and more complete. NoCodr 
 
 # Add files or folders for context
 
-Mention files or folders in your prompt. Kilo Code will use them to better understand and respond to your request.
+Mention files or folders in your prompt. NoCodr will use them to better understand and respond to your request.
 
 Click the paperclip in the text area or use @ to add context.
 

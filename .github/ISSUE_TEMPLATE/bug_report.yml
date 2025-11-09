@@ -24,7 +24,7 @@ body:
       id: version
       attributes:
           label: App Version
-          description: What version of Kilo Code are you using? (e.g., v3.3.1)
+          description: What version of NoCodr are you using? (e.g., v3.3.1)
       validations:
           required: true
 
@@ -53,7 +53,7 @@ body:
       attributes:
           label: Provider
           description: What provider were you using when the issue occurred?
-          placeholder: "e.g., Kilo Code"
+          placeholder: "e.g., NoCodr"
       validations:
           required: false
 

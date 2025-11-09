@@ -1,14 +1,14 @@
 # NoCodr Core Adapters
 
-This directory contains the **Core Adapter Layer** that wraps Kilo Code functionality.
+This directory contains the **Core Adapter Layer** that wraps NoCodr functionality.
 
 ## Purpose
 
-NoCodr inherits all capabilities from Kilo Code (which inherited from Roo Code → Cline). The `core/` directory provides:
+NoCodr inherits all capabilities from NoCodr (which inherited from Roo Code → Cline). The `core/` directory provides:
 
-- **Adapters**: Thin wrappers around Kilo Code services from `src/`
+- **Adapters**: Thin wrappers around NoCodr services from `src/`
 - **Compatibility Shims**: Command/ID aliases for backward compatibility
-- **Extension Points**: Hooks to augment Kilo Code behavior without modification
+- **Extension Points**: Hooks to augment NoCodr behavior without modification
 
 ## Directory Structure
 
@@ -31,7 +31,7 @@ export class NoCodrService extends KiloService {
     // Pre-hook: NoCodr augmentation
     await this.preExecute(params)
     
-    // Execute Kilo Code's original functionality
+    // Execute NoCodr's original functionality
     const result = await super.execute(params)
     
     // Post-hook: NoCodr augmentation
@@ -61,7 +61,7 @@ export class NoCodrExecAdapter implements IKiloExec {
 Independent features that run alongside Kilo:
 ```typescript
 // Example: Live collaboration, Agent Graph Studio
-// These don't modify Kilo Code APIs
+// These don't modify NoCodr APIs
 ```
 
 ## Rules

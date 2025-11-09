@@ -24,7 +24,7 @@ export interface NoCodrCommandOptions {
 }
 
 /**
- * Register NoCodr-specific commands that extend Kilo Code functionality
+ * Register NoCodr-specific commands that extend NoCodr functionality
  */
 export const registerNoCodrCommands = (options: NoCodrCommandOptions) => {
     const { context, outputChannel } = options

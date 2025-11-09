@@ -1,5 +1,5 @@
 {
-	"greeting": "Що Kilo Code може зробити для тебе?",
+	"greeting": "Що NoCodr може зробити для тебе?",
 	"task": {
 		"title": "Завдання",
 		"seeMore": "Дивитися більше",
@@ -19,7 +19,7 @@
 		"sharePublicly": "Поділитися публічно",
 		"sharePubliclyDescription": "Будь-хто з посиланням має доступ",
 		"connectToCloud": "Підключитися до Cloud",
-		"connectToCloudDescription": "Увійдіть до Kilo Code Cloud для обміну завданнями",
+		"connectToCloudDescription": "Увійдіть до NoCodr Cloud для обміну завданнями",
 		"sharingDisabledByOrganization": "Обмін вимкнено організацією",
 		"shareSuccessOrganization": "Посилання організації скопійовано до буфера обміну",
 		"shareSuccessPublic": "Публічне посилання скопійовано до буфера обміну",
@@ -131,7 +131,7 @@
 		"title": "Режими",
 		"marketplace": "Ринок режимів",
 		"settings": "Налаштування режимів",
-		"description": "Спеціалізовані персони, які налаштовують поведінку Kilo Code.",
+		"description": "Спеціалізовані персони, які налаштовують поведінку NoCodr.",
 		"searchPlaceholder": "Пошук режимів...",
 		"noResults": "Результатів не знайдено"
 	},
@@ -180,50 +180,50 @@
 		"tokens": "токени"
 	},
 	"instructions": {
-		"wantsToFetch": "Kilo Code хоче отримати детальні інструкції для допомоги з поточним завданням"
+		"wantsToFetch": "NoCodr хоче отримати детальні інструкції для допомоги з поточним завданням"
 	},
 	"fileOperations": {
-		"wantsToRead": "Kilo Code хоче прочитати цей файл:",
-		"wantsToReadMultiple": "Kilo Code хоче прочитати кілька файлів:",
-		"wantsToReadAndXMore": "Kilo Code хоче прочитати цей файл і ще {{count}}:",
-		"wantsToReadOutsideWorkspace": "Kilo Code хоче прочитати цей файл за межами робочого простору:",
-		"didRead": "Kilo Code прочитав цей файл:",
-		"wantsToEdit": "Kilo Code хоче редагувати цей файл:",
-		"wantsToEditOutsideWorkspace": "Kilo Code хоче редагувати цей файл за межами робочого простору:",
-		"wantsToEditProtected": "Kilo Code хоче редагувати захищений файл конфігурації:",
-		"wantsToApplyBatchChanges": "Kilo Code хоче застосувати зміни до кількох файлів:",
-		"wantsToGenerateImage": "Kilo Code хоче згенерувати зображення:",
-		"wantsToGenerateImageOutsideWorkspace": "Kilo Code хоче згенерувати зображення поза робочою областю:",
-		"wantsToGenerateImageProtected": "Kilo Code хоче згенерувати зображення у захищеному місці:",
-		"didGenerateImage": "Kilo Code згенерував зображення:",
-		"wantsToCreate": "Kilo Code хоче створити новий файл:",
-		"wantsToSearchReplace": "Kilo Code хоче шукати та замінити в цьому файлі:",
-		"didSearchReplace": "Kilo Code виконав пошук і заміну в цьому файлі:",
-		"wantsToInsert": "Kilo Code хоче вставити вміст у цей файл:",
-		"wantsToInsertWithLineNumber": "Kilo Code хоче вставити вміст у цей файл на рядку {{lineNumber}}:",
-		"wantsToInsertAtEnd": "Kilo Code хоче додати вміст в кінець цього файлу:"
+		"wantsToRead": "NoCodr хоче прочитати цей файл:",
+		"wantsToReadMultiple": "NoCodr хоче прочитати кілька файлів:",
+		"wantsToReadAndXMore": "NoCodr хоче прочитати цей файл і ще {{count}}:",
+		"wantsToReadOutsideWorkspace": "NoCodr хоче прочитати цей файл за межами робочого простору:",
+		"didRead": "NoCodr прочитав цей файл:",
+		"wantsToEdit": "NoCodr хоче редагувати цей файл:",
+		"wantsToEditOutsideWorkspace": "NoCodr хоче редагувати цей файл за межами робочого простору:",
+		"wantsToEditProtected": "NoCodr хоче редагувати захищений файл конфігурації:",
+		"wantsToApplyBatchChanges": "NoCodr хоче застосувати зміни до кількох файлів:",
+		"wantsToGenerateImage": "NoCodr хоче згенерувати зображення:",
+		"wantsToGenerateImageOutsideWorkspace": "NoCodr хоче згенерувати зображення поза робочою областю:",
+		"wantsToGenerateImageProtected": "NoCodr хоче згенерувати зображення у захищеному місці:",
+		"didGenerateImage": "NoCodr згенерував зображення:",
+		"wantsToCreate": "NoCodr хоче створити новий файл:",
+		"wantsToSearchReplace": "NoCodr хоче шукати та замінити в цьому файлі:",
+		"didSearchReplace": "NoCodr виконав пошук і заміну в цьому файлі:",
+		"wantsToInsert": "NoCodr хоче вставити вміст у цей файл:",
+		"wantsToInsertWithLineNumber": "NoCodr хоче вставити вміст у цей файл на рядку {{lineNumber}}:",
+		"wantsToInsertAtEnd": "NoCodr хоче додати вміст в кінець цього файлу:"
 	},
 	"directoryOperations": {
-		"wantsToViewTopLevel": "Kilo Code хоче переглянути файли верхнього рівня в цій директорії:",
-		"didViewTopLevel": "Kilo Code переглянув файли верхнього рівня в цій директорії:",
-		"wantsToViewTopLevelOutsideWorkspace": "Kilo Code хоче переглянути файли верхнього рівня в цій директорії (за межами робочого простору):",
-		"didViewTopLevelOutsideWorkspace": "Kilo Code переглянув файли верхнього рівня в цій директорії (за межами робочого простору):",
-		"wantsToViewRecursive": "Kilo Code хоче рекурсивно переглянути всі файли в цій директорії:",
-		"didViewRecursive": "Kilo Code рекурсивно переглянув всі файли в цій директорії:",
-		"wantsToViewRecursiveOutsideWorkspace": "Kilo Code хоче рекурсивно переглянути всі файли в цій директорії (за межами робочого простору):",
-		"didViewRecursiveOutsideWorkspace": "Kilo Code рекурсивно переглянув всі файли в цій директорії (за межами робочого простору):",
-		"wantsToViewDefinitions": "Kilo Code хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії:",
-		"didViewDefinitions": "Kilo Code переглянув назви визначень вихідного коду, що використовуються в цій директорії:",
-		"wantsToViewDefinitionsOutsideWorkspace": "Kilo Code хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
-		"didViewDefinitionsOutsideWorkspace": "Kilo Code переглянув назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
-		"wantsToSearch": "Kilo Code хоче шукати в цій директорії <code>{{regex}}</code>:",
-		"didSearch": "Kilo Code шукав у цій директорії <code>{{regex}}</code>:",
-		"wantsToSearchOutsideWorkspace": "Kilo Code хоче шукати в цій директорії (за межами робочого простору) <code>{{regex}}</code>:",
-		"didSearchOutsideWorkspace": "Kilo Code шукав у цій директорії (за межами робочого простору) <code>{{regex}}</code>:"
+		"wantsToViewTopLevel": "NoCodr хоче переглянути файли верхнього рівня в цій директорії:",
+		"didViewTopLevel": "NoCodr переглянув файли верхнього рівня в цій директорії:",
+		"wantsToViewTopLevelOutsideWorkspace": "NoCodr хоче переглянути файли верхнього рівня в цій директорії (за межами робочого простору):",
+		"didViewTopLevelOutsideWorkspace": "NoCodr переглянув файли верхнього рівня в цій директорії (за межами робочого простору):",
+		"wantsToViewRecursive": "NoCodr хоче рекурсивно переглянути всі файли в цій директорії:",
+		"didViewRecursive": "NoCodr рекурсивно переглянув всі файли в цій директорії:",
+		"wantsToViewRecursiveOutsideWorkspace": "NoCodr хоче рекурсивно переглянути всі файли в цій директорії (за межами робочого простору):",
+		"didViewRecursiveOutsideWorkspace": "NoCodr рекурсивно переглянув всі файли в цій директорії (за межами робочого простору):",
+		"wantsToViewDefinitions": "NoCodr хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії:",
+		"didViewDefinitions": "NoCodr переглянув назви визначень вихідного коду, що використовуються в цій директорії:",
+		"wantsToViewDefinitionsOutsideWorkspace": "NoCodr хоче переглянути назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
+		"didViewDefinitionsOutsideWorkspace": "NoCodr переглянув назви визначень вихідного коду, що використовуються в цій директорії (за межами робочого простору):",
+		"wantsToSearch": "NoCodr хоче шукати в цій директорії <code>{{regex}}</code>:",
+		"didSearch": "NoCodr шукав у цій директорії <code>{{regex}}</code>:",
+		"wantsToSearchOutsideWorkspace": "NoCodr хоче шукати в цій директорії (за межами робочого простору) <code>{{regex}}</code>:",
+		"didSearchOutsideWorkspace": "NoCodr шукав у цій директорії (за межами робочого простору) <code>{{regex}}</code>:"
 	},
 	"codebaseSearch": {
-		"wantsToSearch": "Kilo Code хоче шукати в кодовій базі <code>{{query}}</code>:",
-		"wantsToSearchWithPath": "Kilo Code хоче шукати в кодовій базі <code>{{query}}</code> в <code>{{path}}</code>:",
+		"wantsToSearch": "NoCodr хоче шукати в кодовій базі <code>{{query}}</code>:",
+		"wantsToSearchWithPath": "NoCodr хоче шукати в кодовій базі <code>{{query}}</code> в <code>{{path}}</code>:",
 		"didSearch_one": "Знайдено 1 результат",
 		"didSearch_other": "Знайдено {{count}} результатів",
 		"resultTooltip": "Оцінка схожості: {{score}} (клікни для відкриття файлу)"
@@ -256,18 +256,18 @@
 		"youSaid": "Ти сказав"
 	},
 	"mcp": {
-		"wantsToUseTool": "Kilo Code хоче використати інструмент на сервері MCP {{serverName}}:",
-		"wantsToAccessResource": "Kilo Code хоче отримати доступ до ресурсу на сервері MCP {{serverName}}:"
+		"wantsToUseTool": "NoCodr хоче використати інструмент на сервері MCP {{serverName}}:",
+		"wantsToAccessResource": "NoCodr хоче отримати доступ до ресурсу на сервері MCP {{serverName}}:"
 	},
 	"modes": {
-		"wantsToSwitch": "Kilo Code хоче перейти в режим {{mode}}",
-		"wantsToSwitchWithReason": "Kilo Code хоче перейти в режим {{mode}}, тому що: {{reason}}",
-		"didSwitch": "Kilo Code перейшов у режим {{mode}}",
-		"didSwitchWithReason": "Kilo Code перейшов у режим {{mode}}, тому що: {{reason}}"
+		"wantsToSwitch": "NoCodr хоче перейти в режим {{mode}}",
+		"wantsToSwitchWithReason": "NoCodr хоче перейти в режим {{mode}}, тому що: {{reason}}",
+		"didSwitch": "NoCodr перейшов у режим {{mode}}",
+		"didSwitchWithReason": "NoCodr перейшов у режим {{mode}}, тому що: {{reason}}"
 	},
 	"subtasks": {
-		"wantsToCreate": "Kilo Code хоче створити нове підзавдання в режимі {{mode}}:",
-		"wantsToFinish": "Kilo Code хоче завершити це підзавдання",
+		"wantsToCreate": "NoCodr хоче створити нове підзавдання в режимі {{mode}}:",
+		"wantsToFinish": "NoCodr хоче завершити це підзавдання",
 		"newTaskContent": "Інструкції підзавдання",
 		"completionContent": "Підзавдання завершено",
 		"resultContent": "Результати підзавдання",
@@ -275,21 +275,21 @@
 		"completionInstructions": "Підзавдання завершено! Ти можеш переглянути результати та запропонувати будь-які виправлення або наступні кроки. Якщо все виглядає добре, підтверди, щоб повернути результат до батьківського завдання."
 	},
 	"questions": {
-		"hasQuestion": "Kilo Code має питання:"
+		"hasQuestion": "NoCodr має питання:"
 	},
 	"taskCompleted": "Завдання виконано",
 	"error": "Помилка",
 	"diffError": {
 		"title": "Редагування не вдалося"
 	},
-	"troubleMessage": "Kilo Code має проблеми...",
+	"troubleMessage": "NoCodr має проблеми...",
 	"powershell": {
 		"issues": "Схоже, у тебе проблеми з Windows PowerShell, будь ласка, подивись це"
 	},
 	"autoApprove": {
 		"title": "Автосхвалення:",
 		"none": "Немає",
-		"description": "Автосхвалення дозволяє Kilo Code виконувати дії без запиту дозволу. Увімкни лише для дій, яким ти повністю довіряєш. Більш детальна конфігурація доступна в <settingsLink>Налаштуваннях</settingsLink>.",
+		"description": "Автосхвалення дозволяє NoCodr виконувати дії без запиту дозволу. Увімкни лише для дій, яким ти повністю довіряєш. Більш детальна конфігурація доступна в <settingsLink>Налаштуваннях</settingsLink>.",
 		"selectOptionsFirst": "Спочатку вибери принаймні один варіант нижче, щоб увімкнути автосхвалення",
 		"toggleAriaLabel": "Перемкнути автосхвалення",
 		"disabledAriaLabel": "Автосхвалення вимкнено - спочатку вибери варіанти",
@@ -304,7 +304,7 @@
 		"triggerLabelOff": "Автосхвалення вимкнено"
 	},
 	"announcement": {
-		"title": "🎉 Випущено Kilo Code {{version}}",
+		"title": "🎉 Випущено NoCodr {{version}}",
 		"stealthModel": {
 			"feature": "<bold>Обмежена в часі БЕЗКОШТОВНА прихована модель</bold> - Блискавично швидка модель міркування, яка відмінно справляється з агентним кодуванням з контекстним вікном 262k, доступна через Roo Code Cloud.",
 			"note": "(Примітка: запити та завершення записуються створювачем моделі для покращення моделі)",
@@ -312,9 +312,9 @@
 			"selectModel": "Виберіть <code>roo/sonic</code> від провайдера Roo Code Cloud в<br/><settingsLink>Налаштуваннях</settingsLink>, щоб почати",
 			"goToSettingsButton": "Перейти до Налаштувань"
 		},
-		"description": "Kilo Code {{version}} приносить основні нові функції та покращення на основі твоїх відгуків.",
+		"description": "NoCodr {{version}} приносить основні нові функції та покращення на основі твоїх відгуків.",
 		"whatsNew": "Що нового",
-		"feature1": "<bold>Запуск Kilo Code Marketplace</bold>: Маркетплейс тепер працює! Відкривай та встановлюй режими та MCP легше, ніж будь-коли.",
+		"feature1": "<bold>Запуск NoCodr Marketplace</bold>: Маркетплейс тепер працює! Відкривай та встановлюй режими та MCP легше, ніж будь-коли.",
 		"feature2": "<bold>Моделі Gemini 2.5</bold>: Додано підтримку нових моделей Gemini 2.5 Pro, Flash та Flash Lite.",
 		"feature3": "<bold>Підтримка файлів Excel та інше</bold>: Додано підтримку файлів Excel (.xlsx) та численні виправлення помилок і покращення!",
 		"hideButton": "Приховати оголошення",
@@ -333,7 +333,7 @@
 		"countdownDisplay": "{{count}}с"
 	},
 	"browser": {
-		"rooWantsToUse": "Kilo Code хоче використати браузер:",
+		"rooWantsToUse": "NoCodr хоче використати браузер:",
 		"consoleLogs": "Логи консолі",
 		"noNewLogs": "(Немає нових логів)",
 		"screenshot": "Знімок екрана браузера",
@@ -367,18 +367,18 @@
 	"profileViolationWarning": "Поточний профіль несумісний з налаштуваннями твоєї організації",
 	"shellIntegration": {
 		"title": "Попередження про виконання команди",
-		"description": "Твоя команда виконується без інтеграції оболонки терміналу VSCode. Щоб прибрати це попередження, ти можеш вимкнути інтеграцію оболонки в розділі <strong>Terminal</strong> <settingsLink>налаштувань Kilo Code</settingsLink> або усунути проблеми з інтеграцією терміналу VSCode, використовуючи посилання нижче.",
+		"description": "Твоя команда виконується без інтеграції оболонки терміналу VSCode. Щоб прибрати це попередження, ти можеш вимкнути інтеграцію оболонки в розділі <strong>Terminal</strong> <settingsLink>налаштувань NoCodr</settingsLink> або усунути проблеми з інтеграцією терміналу VSCode, використовуючи посилання нижче.",
 		"troubleshooting": "Натисни тут для документації з інтеграції оболонки."
 	},
 	"ask": {
 		"autoApprovedRequestLimitReached": {
 			"title": "Досягнуто ліміт автосхвалених запитів",
-			"description": "Kilo Code досяг автосхваленого ліміту {{count}} API запит(ів). Хочеш скинути лічильник і продовжити завдання?",
+			"description": "NoCodr досяг автосхваленого ліміту {{count}} API запит(ів). Хочеш скинути лічильник і продовжити завдання?",
 			"button": "Скинути і продовжити"
 		},
 		"autoApprovedCostLimitReached": {
 			"title": "Досягнуто ліміт автоматично схвалених витрат",
-			"description": "Kilo Code досяг ліміту автоматично схвалених витрат ${{count}}. Хочете скинути витрати і продовжити завдання?",
+			"description": "NoCodr досяг ліміту автоматично схвалених витрат ${{count}}. Хочете скинути витрати і продовжити завдання?",
 			"button": "Скинути і продовжити"
 		}
 	},
@@ -426,8 +426,8 @@
 	},
 	"generateCommitMessage": "Згенерувати повідомлення коміту",
 	"slashCommand": {
-		"wantsToRun": "Kilo Code хоче виконати slash команду:",
-		"didRun": "Kilo Code виконав slash команду:"
+		"wantsToRun": "NoCodr хоче виконати slash команду:",
+		"didRun": "NoCodr виконав slash команду:"
 	},
 	"contextMenu": {
 		"noResults": "Результатів немає",

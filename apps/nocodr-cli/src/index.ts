@@ -113,7 +113,7 @@ program
 // Add compatibility alias for kilo up
 program
 	.command('kilo', { hidden: true })
-	.description('Kilo Code compatibility commands')
+	.description('NoCodr compatibility commands')
 	.argument('<command...>')
 	.action((command) => {
 		if (command[0] === 'up') {

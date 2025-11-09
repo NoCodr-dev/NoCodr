@@ -12,4 +12,4 @@ NoCodr will write the code, generate the files, and run the project for you.
 
 ## NoCodr has many Modes ...
 
-<img src="images/modes.gif" width='200' alt="Kilo Code modes" />
+<img src="images/modes.gif" width='200' alt="NoCodr modes" />
